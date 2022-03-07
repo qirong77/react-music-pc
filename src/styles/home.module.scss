@@ -1,0 +1,57 @@
+.left {
+  height: 100%;
+  flex: 0.75;
+  position: relative;
+  min-width: 180px;
+  background-color: black;
+  .left1 {
+    min-width: 180px;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    .logo {
+      margin-left: 15px;
+      margin-top: 65px;
+      display: flex;
+      span {
+        padding-left: 6px;
+        line-height: 36px;
+        font-size: 32px;
+      }
+    }
+    .SearchBar {
+      margin-top: 20px;
+      width: 90%;
+      height: 36px;
+      margin-bottom: 30px;
+      padding-bottom: 4px;
+
+    }
+    .nav {
+      .r1 {
+        padding-left: 2px;
+        height: 35px;
+        line-height: 35px;
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: -1px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 18px;
+        padding-left: 10px;
+      }
+      padding-bottom: 10px;
+      border-bottom: 1px solid lightgray;
+      margin-right: 20px;
+    }
+  }
+}
+
+.right {
+  height: 100%;
+  flex: 3;
+  padding-left: 70px;
+  padding-right: 50px;
+}

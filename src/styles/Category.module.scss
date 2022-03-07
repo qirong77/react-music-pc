@@ -1,0 +1,25 @@
+.category1 {
+    display: flex;
+    margin-top: 20px;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .category {
+      margin-top: 30px;
+      position: relative;
+      border-radius: 10px;
+      background-color: whitesmoke;
+      height: 60px;
+      line-height: 60px;
+      padding-left: 20px;
+      width: 30%;
+      color: red;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+    }
+    .arr1 {
+      position: absolute;
+      right: 20px;
+    }
+  }
